@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--James Jackson-->
+<!--VFW 1303-->
+<!--Project 1-->
+<html>
+<head>
+    <meta name="description" content="List" />
+    <meta name="keywords" content="series,characters,themes,periods,stories" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="user-scalable=yes, width=device-width" />
+    <title>Japanese Print Collection</title>
+</head>
+<body>
+<fieldset>
+    <h1>Ukiyo-e Print Collection- "pictures of the floating world"</h1>
+    <form action="#" method="post">			<!--top of form-->
+        <legend>Select an existing print from the library to modify.</legend>
+        <ul>
+            <select>
+                <option>Kyumonryu Shishin and Chokanko Chintatsu</option>
+                <option>Shinkigunshi Shubu</option>
+                <option>Shinkunshi Shubu and Hakukada Yoshun</option>
+            </select>
+        </ul>
+        <h2>Print Name and/or Description:</h2>
+        <label for= >Print Name:</label>
+        <br />
+        <input type="text" name="name" />
+        <br />
+        <br />
+        <label for= >Time Period:</label>
+        <br />
+        <input type="range" name="quantity" min="1700" max="2020"/>
+        <br />
+        <legend>School or influence:</legend>
+        <ul>
+            <li><input type="radio" checked value=" Kaigetsudō school, from 1700–14" name="school" id="Kaigetsudō school, from 1700–14"/><label for = "Kaigetsudō school, from 1700–14">Kaigetsudō school, from 1700–14</label></li>
+            <li><input type="radio" value=" Torii school, from 1700" name="school" id="Torii school, from 1700" /><label for = "Torii school, from 1700">Torii school, from 1700</label></li>
+            <li><input type="radio" value=" Katsukawa school, from about 1740" name="school" id="Katsukawa school, from about 1740" /><label for = "Katsukawa school, from about 1740">Katsukawa school, from about 1740</label></li>
+            <li><input type="radio" value=" Utagawa school, from 1842" name="school" id="Utagawa school, from 1842" /><label for = "Utagawa school, from 1842">Utagawa school, from 1842</label></li>
+            <li><input type="radio" value=" Sōsaku hanga movement, from 1904" name="school" id="Sōsaku hanga movement, from 1904" /><label for = "Sōsaku hanga movement, from 1904">Sōsaku hanga movement, from 1904</label></li>
+            <li><input type="radio" value=" Shin hanga New Prints movement, from 1915" name="school" id="Shin hanga New Prints movement, from 1915" /><label for = "Shin hanga New Prints movement, from 1915">Shin hanga New Prints movement, from 1915</label></li>
+
+        </ul>
+        <label for= >Approx Print Value:</label>
+        <br />
+        <input type ="text"  name = "store name" size = "45" height = "6" />
+        <br />
+        <label for = >Date Printed:</label>
+        <br />
+        <input type="date" name="date" />
+        <br />
+        <label for= >Date Added to Collection:</label>
+        <br />
+        <input type="date" name="date" />
+        <br />
+        <label for=>Comments:</label>
+        <br />
+        <textarea rows="4" cols="45">
+        </textarea>
+        <br />
+    </form>  <!--end of the form-->
+</fieldset>
+<input type="submit" name="submit" value="Submit"/>
+<br />
+<a href="#">Clear Stored Data</a>
+<a href="#">Display Data</a>
+</body>
+</html>
