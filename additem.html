@@ -5,8 +5,8 @@
 <html>
 <head>
     <meta name="description" content="List" />
-    <meta name="keywords" content="series,characters,themes,periods,stories" />
-    <meta name="robots" content="noindex,nofollow" />
+    <meta name="keywords" content="Japanese, series, characters, themes, periods, stories, prints" />
+    <meta name="robots" content="noindex, nofollow" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="user-scalable=yes, width=device-width" />
     <title>Japanese Print Collection</title>
@@ -17,25 +17,27 @@
     <form action="#" method="post">			<!--top of form-->
         <legend>Select an existing print from the library to modify.</legend>
         <ul>
-            <select>
-                <option>Kyumonryu Shishin and Chokanko Chintatsu</option>
-                <option>Shinkigunshi Shubu</option>
-                <option>Shinkunshi Shubu and Hakukada Yoshun</option>
-            </select>
+            <label>Prints already catalogued
+                <select>
+                    <option>Kyumonryu Shishin and Chokanko Chintatsu</option>
+                    <option>Shinkigunshi Shubu</option>
+                    <option>Shinkunshi Shubu and Hakukada Yoshun</option>
+                </select>
+            </label>
         </ul>
         <h2>Quick Description:</h2>
-        <label for= >Add Name:</label>
+        <label for= >Add Print Name:</label>
         <br />
         <input type ="text"  name = "store name" size = "45" height = "6" />
         <br>
-        <label for= >Enter Description:</label>
+        <label for= >Enter Print Description:</label>
         <br />
-        <input type="text" name="name" />
+        <input type="text" name="description" />
         <br />
         <br />
-        <label for= >Time Period:</label>
+        <label for= >Time Period: Slide for the Approx Year</label>
         <br />
-        <input type="range" name="quantity" min="1700" max="2020"/>
+        <input type="range" name="year" min="1700" max="2020"/>
         <br />
         <legend>School or influence:</legend>
         <ul>
@@ -58,10 +60,10 @@
         <br>
         <label for=>Additional Comments:</label>
         <br />
-        <textarea rows="4" cols="45">
+        <textarea rows="10" cols="50">
         </textarea>
         <br />
-    </form>  <!--end of the form-->
+    </form>  <!--end of line-->
 </fieldset>
 <input type="submit" name="submit" value="Submit"/>
 <br />
