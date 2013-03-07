@@ -5,7 +5,7 @@
 <html>
 <head>
     <meta name="description" content="List" />
-    <meta name="keywords" content="Japanese, series, characters, themes, periods, stories, prints" />
+    <meta name="keywords" content="Japanese, series, characters, themes, periods, stories, prints, Ukiyo-e" />
     <meta name="robots" content="noindex, nofollow" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="user-scalable=yes, width=device-width" />
@@ -30,7 +30,10 @@
         <label for= >Add Print Name:</label>
         <br />
         <!--Simple text input-->
-        <input type ="text"  name = "store name" size = "45" height = "6" />
+        <input type ="text"
+               name = "store name"
+               size = "45"
+               height = "6" />
         <br>
         <label for= >Enter Print Description:</label>
         <!--Textarea with specified area-->
@@ -41,20 +44,43 @@
         <label for= >Time Period: Slide for the Approx Year</label>
         <!--I want add a visible year to select from next stage-->
         <br />
-        <input type="range" name="year" min="1700" max="2020"/>
+        <input type="range"
+               name="year"
+               min="1700"
+               max="2020"/>
         <br />
         <legend>School or influence:</legend>
         <ul>
-            <li><input type="radio" checked value=" Kaigetsudō school, from 1700–14" name="school" id="Kaigetsudō school, from 1700–14"/><label for = "Kaigetsudō school, from 1700–14">Kaigetsudō school, from 1700–14</label></li>
-            <li><input type="radio" value=" Torii school, from 1700" name="school" id="Torii school, from 1700" /><label for = "Torii school, from 1700">Torii school, from 1700</label></li>
-            <li><input type="radio" value=" Katsukawa school, from about 1740" name="school" id="Katsukawa school, from about 1740" /><label for = "Katsukawa school, from about 1740">Katsukawa school, from about 1740</label></li>
-            <li><input type="radio" value=" Utagawa school, from 1842" name="school" id="Utagawa school, from 1842" /><label for = "Utagawa school, from 1842">Utagawa school, from 1842</label></li>
-            <li><input type="radio" value=" Sōsaku hanga movement, from 1904" name="school" id="Sōsaku hanga movement, from 1904" /><label for = "Sōsaku hanga movement, from 1904">Sōsaku hanga movement, from 1904</label></li>
-            <li><input type="radio" value=" Shin hanga New Prints movement, from 1915" name="school" id="Shin hanga New Prints movement, from 1915" /><label for = "Shin hanga New Prints movement, from 1915">Shin hanga New Prints movement, from 1915</label></li>
+            <li><input type="radio"
+                       checked value=" Kaigetsudō school, from 1700–14"
+                       name="school"
+                       id="Kaigetsudō school, from 1700–14"/><label
+                        for = "Kaigetsudō school, from 1700–14">Kaigetsudō school, from 1700–14</label></li>
+            <li><input type="radio"
+                       value=" Torii school, from 1700"
+                       name="school" id="Torii school, from 1700" /><label
+                        for = "Torii school, from 1700">Torii school, from 1700</label></li>
+            <li><input type="radio"
+                       value=" Katsukawa school, from about 1740"
+                       name="school" id="Katsukawa school, from about 1740" /><label
+                        for = "Katsukawa school, from about 1740">Katsukawa school, from about 1740</label></li>
+            <li><input type="radio"
+                       value=" Utagawa school, from 1842"
+                       name="school"
+                       id="Utagawa school, from 1842" /><label
+                        for = "Utagawa school, from 1842">Utagawa school, from 1842</label></li>
+            <li><input type="radio"
+                       value=" Sōsaku hanga movement, from 1904"
+                       name="school" id="Sōsaku hanga movement, from 1904" /><label
+                        for = "Sōsaku hanga movement, from 1904">Sōsaku hanga movement, from 1904</label></li>
+            <li><input type="radio"
+                       value=" Shin hanga New Prints movement, from 1915"
+                       name="school" id="Shin hanga New Prints movement, from 1915" /><label
+                        for = "Shin hanga New Prints movement, from 1915">Shin hanga New Prints movement, from 1915</label></li>
         </ul>
         <br />
         <label for = >Date Printed:</label>
-        <!--Had no idea how easy HTML5 made this...-->
+
         <br />
         <input type="date" name="date" />
         <br />
@@ -63,7 +89,11 @@
         <input type="date" name="date" />
         <br />
         <br>
-
+        <input type = "checkbox"
+                id="complete"
+                value checkbox=" done"/>
+        <label for> Complete Entry?</label>
+        <br>
     </form>  <!--end of line-->
 </fieldset>
 <input type="submit" name="submit" value="Submit"/>
